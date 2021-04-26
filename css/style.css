@@ -1,0 +1,92 @@
+.header {
+  width: 1423px;
+  height: 729px;
+  background-color: #000000;
+  background-image: url(../images/background.png);
+  background-size: cover;
+  padding: 30px;
+}
+
+.nav {
+  margin-top: 30px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.logo {
+  transform: translateX(300px);
+}
+
+.logo a {
+  font-size: 26px;
+  letter-spacing: 1px;
+  line-height: 41px;
+  color: #fed136;
+  font-family: 'Dancing Script', cursive;
+}
+
+.navigation {
+  transform: translateX(-100px);
+}
+
+.navigation-name {
+  font-size: 14px;
+  line-height: 41px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+  display: inline;
+  margin: 20px;
+}
+
+.home {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  margin: 100px;
+  transform: translate(30px, 100px);
+}
+
+.welcome {
+  font-size: 40px;
+  letter-spacing: -1px;
+  color: #ffffff;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Droid Serif";
+  text-align: center;
+}
+
+.nice {
+  font-size: 75px;
+  letter-spacing: -2px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-align: center;
+  transform: translateY(20px);
+}
+
+.home-btn {
+  transform: translate(450px, 80px);
+}
+
+.home-btn button {
+  width: 240px;
+  height: 65px;
+  border-radius: 3px;
+  background-color: #fed136;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
