@@ -157,4 +157,72 @@
   text-align: center;
   display: block;
 }
+
+.portfolio {
+  width: 100%;
+  margin-top: 250px;
+}
+
+.portfolio-title {
+  text-align: center;
+  margin: 70px;
+}
+
+.portfolio-title h1 {
+  font-size: 40px;
+  letter-spacing: -1px;
+  line-height: 75px;
+  color: #222222;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-align: center;
+  margin: 0;
+}
+
+.portfolio-title h2 {
+  font-size: 16px;
+  color: #777777;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Droid Serif";
+  text-align: center;
+  margin-top: 0;
+}
+
+.portfolio-photos-block {
+  margin: 50px;
+  text-align: center;
+}
+
+.portfolio-photos {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.portfolio-photos-block img {
+  width: 290px;
+  height: 300px;
+}
+
+.portfolio-photos-block h1 {
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #333333;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.portfolio-photos-block a {
+  font-size: 14px;
+  color: #737373;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Droid Serif";
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
