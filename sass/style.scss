@@ -7,6 +7,10 @@
     background-size: cover;
 }
 
+body {
+    margin: 0;
+}
+
 /* Navigation */
 
 .nav {
@@ -18,7 +22,7 @@
 }
 
 .logo {
-    margin-left: 300px;
+    
 }
 .logo a {
     font-size: 26px;
@@ -26,6 +30,7 @@
     line-height: 41px;
     color: #fed136;
     font-family: 'Dancing Script', cursive;
+    text-align: center;
 }
 
 .navigation-name {
@@ -42,10 +47,9 @@
 /* Home */
 
 .home {
-    display: flex;
-    flex-direction: column;
-    margin: 100px;
+    margin-top: 10%;
     padding: 20px;
+    text-align: center;
     
 }
 
@@ -298,6 +302,16 @@
     .footer-socials {
         margin-left: 10px;
     }
+
+    .footer-socials i {
+        width: 30px;
+        height: 30px;
+        border-radius: 20px;
+        font-size: 15px;
+        line-height: 30px;
+    
+    }
+
 }
 
 

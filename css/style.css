@@ -7,6 +7,10 @@
   background-size: cover;
 }
 
+body {
+  margin: 0;
+}
+
 /* Navigation */
 .nav {
   display: -ms-flexbox;
@@ -19,16 +23,13 @@
   left: 50%;
 }
 
-.logo {
-  margin-left: 300px;
-}
-
 .logo a {
   font-size: 26px;
   letter-spacing: 1px;
   line-height: 41px;
   color: #fed136;
   font-family: 'Dancing Script', cursive;
+  text-align: center;
 }
 
 .navigation-name {
@@ -44,12 +45,9 @@
 
 /* Home */
 .home {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  margin: 100px;
+  margin-top: 10%;
   padding: 20px;
+  text-align: center;
 }
 
 .welcome {
@@ -297,6 +295,13 @@
   }
   .footer-socials {
     margin-left: 10px;
+  }
+  .footer-socials i {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 15px;
+    line-height: 30px;
   }
 }
 /*# sourceMappingURL=style.css.map */
