@@ -88,12 +88,12 @@ body {
 
 /* Services */
 .services {
-  width: 100%;
   margin-top: 70px;
 }
 
 .services-title {
   text-align: center;
+  display: block;
 }
 
 .services-title h1 {
@@ -104,6 +104,7 @@ body {
   font-weight: 700;
   font-family: "Montserrat";
   text-align: center;
+  display: block;
 }
 
 .services-title h2 {
@@ -286,7 +287,7 @@ body {
 }
 
 /* Media */
-@media (max-width: 767px) {
+@media (min-width: 686px) and (max-width: 767px) {
   .logo {
     margin-left: 40px;
   }
@@ -295,6 +296,74 @@ body {
   }
   .footer-socials {
     margin-left: 10px;
+  }
+  .footer-socials i {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 15px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 686px) {
+  .header {
+    height: 680px;
+  }
+  .navigation-name {
+    font-size: 11px;
+    display: block;
+    margin: 0px;
+  }
+  .home {
+    margin-top: 5px;
+    padding: 10px;
+  }
+  .welcome {
+    font-size: 25px;
+  }
+  .nice {
+    font-size: 45px;
+  }
+  .home-btn {
+    padding-top: 30px;
+  }
+  .home-btn button {
+    width: 180px;
+  }
+  .services-title h1 {
+    font-size: 30px;
+  }
+  .services-options {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .services-block {
+    margin: 10px;
+  }
+  .services-block h2 {
+    margin: 0px;
+  }
+  .portfolio {
+    margin-top: 150px;
+  }
+  .portfolio-title {
+    margin: 0px;
+  }
+  .portfolio-title h1 {
+    font-size: 25px;
+  }
+  .footer {
+    margin-bottom: 30px;
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .foot {
+    margin: 0px;
+  }
+  .footer-socials {
+    margin: 10px;
+    text-align: center;
   }
   .footer-socials i {
     width: 30px;
